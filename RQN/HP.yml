@@ -1,0 +1,18 @@
+batch_size : 8
+learning_rate: 1e-3
+buffer_len : int(100000)
+min_epi_num : 20 
+episodes : 650
+print_per_iter : 20
+target_update_period : 4
+eps_start : 0.1
+eps_end : 0.001
+eps_decay : 0.995
+tau : 1e-2
+max_step : 2000
+
+
+random_update : True
+lookup_step : 20 
+max_epi_len : 100 
+max_epi_step : 2000
